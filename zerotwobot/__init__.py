@@ -25,11 +25,15 @@ load_dotenv()
 StartTime = time.time()
 
 # enable logging
+FORMAT = "[CUTIEPII ROBOT] %(message)s"
 logging.basicConfig(
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[logging.FileHandler("log.txt"), logging.StreamHandler()],
-    level=logging.DEBUG,
+    handlers=[logging.FileHandler("LOGGER.txt"), logging.StreamHandler()],
+    level=logging.INFO,
+    format=FORMAT,
+    datefmt="[%X]",
 )
+logging.getLogger("pyrogram").setLevel(logging.INFO)
+logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger(__name__)
 
