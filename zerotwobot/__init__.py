@@ -15,12 +15,6 @@ from telethon import TelegramClient
 from telegram import __bot_api_version__, __version__ as ptb_version
 from dotenv import load_dotenv
 
-try:
-    from zerotwobot.config import Development as Config
-except:
-    print("Can't import config!")
-
-
 load_dotenv()
 StartTime = time.time()
 
