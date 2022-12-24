@@ -105,7 +105,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-
+    from zerotwobot.config import Development as Config
     TOKEN = Config.TOKEN
 
     try:
@@ -168,7 +168,7 @@ telethn = TelegramClient(MemorySession(), API_ID, API_HASH)
 
 async def post_init(application: Application):
     try:
-        await application.bot.sendMessage(-1001765891293, random.choice(ALIVE_TEXT))
+        await application.bot.sendMessage(-1001151980503, random.choice(ALIVE_TEXT))
     except Forbidden:
         LOGGER.warning(
             "Bot isn't able to send message to support_chat, go and check!",
