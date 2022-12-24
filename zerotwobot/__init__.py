@@ -136,7 +136,7 @@ else:
     SUPPORT_CHAT = Config.SUPPORT_CHAT
     INFOPIC = Config.INFOPIC
     TEMP_DOWNLOAD_LOC = Config.TEMP_DOWNLOAD_LOC
-    DB_URI = Config.SQLALCHEMY_DATABASE_URI 
+    DB_URI = Config.DB_URI
 
     if DB_URI.startswith("postgres://"):
         DB_URI = DB_URI.replace("postgres://", "postgresql://")
