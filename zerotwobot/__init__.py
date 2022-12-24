@@ -22,19 +22,13 @@ except:
 
 
 load_dotenv()
-
-try:
-    LOGGER_LEVEL = int(os.environ.get("LOGGER_LEVEL"))
-except:
-    LOGGER_LEVEL = int(Config.LOGGER_LEVEL)
-
 StartTime = time.time()
 
 # enable logging
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[logging.FileHandler("log.txt"), logging.StreamHandler()],
-    level=LOGGER_LEVEL,
+    level=logging.DEBUG,
 )
 
 LOGGER = logging.getLogger(__name__)
