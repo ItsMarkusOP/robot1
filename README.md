@@ -26,12 +26,12 @@
 * Bot Support chat : [Support](https://t.me/blackbulls_support)
 * Bot News/Updates : [News](https://t.me/blackbull_bots)
 * Me(Repo Owner) : [Joker Hacker](https://t.me/kishoreee)
-* Wiki : [Checkout Our Wiki](https://github.com/Black-Bulls-Bots/Cutiepii_Robot/wiki)
+* Wiki : [Checkout Our Wiki](https://github.com/Awesome-RJ/Cutiepii-Robot/wiki)
   
 ## Useful Links
-[Contributing](https://github.com/Black-Bulls-Bots/Cutiepii_Robot/blob/main/CONTRIBUTING.md)
-[Code of Conduct](https://github.com/Black-Bulls-Bots/Cutiepii_Robot/blob/main/CODE_OF_CONDUCT.md)
-[Security Policy](https://github.com/Black-Bulls-Bots/Cutiepii_Robot/blob/main/SECURITY.md)
+[Contributing](https://github.com/Awesome-RJ/Cutiepii-Robot/blob/main/CONTRIBUTING.md)
+[Code of Conduct](https://github.com/Awesome-RJ/Cutiepii-Robot/blob/main/CODE_OF_CONDUCT.md)
+[Security Policy](https://github.com/Awesome-RJ/Cutiepii-Robot/blob/main/SECURITY.md)
 
 
 ## CREDITS
@@ -39,5 +39,5 @@
 [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)
 
 ## License
-Zero Two is Licensed Under GPL Version 3 [Read More Here](https://github.com/Black-Bulls-Bots/Cutiepii_Robot/blob/main/LICENSE)
+Zero Two is Licensed Under GPL Version 3 [Read More Here](https://github.com/Awesome-RJ/Cutiepii-Robot/blob/main/LICENSE)
  

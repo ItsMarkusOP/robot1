@@ -1,6 +1,6 @@
 FROM jokerhacker/zerotwo-python:latest
 
-RUN  git clone https://github.com/Black-Bulls-Bots/Cutiepii_Robot -b main  /root/zerotwo
+RUN  git clone https://github.com/Awesome-RJ/Cutiepii-Robot -b main  /root/zerotwo
 RUN  mkdir  /root/zerotwo/bin/
 WORKDIR /root/zerotwo/
 

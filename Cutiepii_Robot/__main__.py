@@ -186,7 +186,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [
             InlineKeyboardButton(
                 text="Source Code",
-                url="https://github.com/Black-Bulls-Bots/Cutiepii_Robot"
+                url="https://github.com/Awesome-RJ/Cutiepii-Robot"
             )
         ]
     ]
